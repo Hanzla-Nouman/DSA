@@ -15,8 +15,8 @@ int function(int n)
     }
     else
     {
-        i = random(n - 1);
-        printf("this\n");
+        i = random(n - 1); //i = 4 //n = 3
+        printf("this\n");           
         return function(i) + function(n - 1 - i);
     }
 }
